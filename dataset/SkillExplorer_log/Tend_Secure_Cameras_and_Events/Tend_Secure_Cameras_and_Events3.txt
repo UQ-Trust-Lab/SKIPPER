@@ -1,0 +1,13 @@
+Alexa, open tend secure
+To use Tend Secure, you must link your Tend account. Please open the Alexa app in your mobile device and link your account.
+Stop
+
+What's the time
+The time is 645 PM.
+
+
+log:
+
+
+time:
+94.96226930618286

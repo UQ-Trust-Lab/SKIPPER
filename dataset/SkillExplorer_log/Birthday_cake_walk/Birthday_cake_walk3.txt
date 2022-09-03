@@ -1,0 +1,13 @@
+Alexa, open cake walk
+Hello. Welcome to Cake Walk. When is your birthday.
+Stop
+Goodbye.
+What's the time
+The time is 727 AM.
+
+
+log:
+
+
+time:
+31.415171146392822

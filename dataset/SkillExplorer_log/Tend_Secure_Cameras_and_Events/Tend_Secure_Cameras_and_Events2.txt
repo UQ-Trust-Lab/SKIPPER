@@ -1,0 +1,11 @@
+Alexa, open tend secure
+To use Tend Secure, you must link your Tend account. Please open the Alexa app in your mobile device and link your account.
+link
+Sorry, I can't connect or control Bluetooth on your Device.
+
+
+log:
+
+
+time:
+31.181248903274536

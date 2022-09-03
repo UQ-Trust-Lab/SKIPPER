@@ -1,0 +1,16 @@
+Alexa, open tend secure
+Ok, Here's Tend Secure Cameras and Events.Sorry, I'm having trouble accessing your Tend Secure Cameras and Events skill right now.
+Help
+Do you need to place an emergency call.
+Yes
+
+What's the time
+The time is 643 PM.
+
+
+log:
+problem1----------crash!
+
+
+time:
+50.71290636062622

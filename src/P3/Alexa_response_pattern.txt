@@ -1,0 +1,38 @@
+i'm having trouble accessing
+i don't have an answer
+i didn't quite catch that
+i'm having trouble
+i don't know that
+i didn't get that
+i couldn't find anything for that
+i'm not sure
+i can't understand
+i couldn't understand
+i didn't understand
+not sure about that
+not get what you said
+can not hear
+having trouble accessing
+not available
+here's something i found on the web
+i found a few skills
+which skill did you want
+there’s a skill called
+you can say
+according to wikipedia
+this might answer your question
+the answer to your calculation is
+i found a few matches for that
+<audio only response>
+<short audio>
+amazon.fallbackIntent
+error occurred
+technical difficulties
+technical challenge
+translat
+local news
+top five things
+here is an interesting fact
+here is your fact
+here's your destination
+amazon.com

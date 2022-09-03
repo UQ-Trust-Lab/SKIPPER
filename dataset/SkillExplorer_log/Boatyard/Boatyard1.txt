@@ -1,0 +1,11 @@
+Alexa, open boat yard
+In order to schedule a fuel delivery, Boatyard will need access to your name, email address and phone number. Please go to the home screen in your Alexa app and grant me permissions.
+grant
+This might answer your question According to Wikipedia Grant are funds given by an entity  frequently, a public body, charitable foundation, or a specialised grantmaking institution  to an individual or another entity for a specific purpose linked to public benefit. Unlike loans, grants are not to be paid back. The European Commission provides financing through numerous specific calls for project proposals.
+
+
+log:
+
+
+time:
+57.387009620666504

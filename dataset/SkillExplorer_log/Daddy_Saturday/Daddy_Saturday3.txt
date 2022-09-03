@@ -1,0 +1,13 @@
+Alexa, open daddy saturday
+For customizing recommendations based on local weather conditions, please enable address permissions in the Amazon Alexa app.
+Stop
+
+What's the time
+The time is 452 AM.
+
+
+log:
+
+
+time:
+91.76541328430176

@@ -1,0 +1,13 @@
+Alexa, open tend secure
+Sorry, I'm having trouble accessing your Tend Secure Cameras and Events skill right now.
+skill
+Okay, before I can continue, please set a location for your amazon account on amazon.com, under the Preferences tab of Your Content and Devices.
+Devices
+.
+
+
+log:
+
+
+time:
+47.084375619888306

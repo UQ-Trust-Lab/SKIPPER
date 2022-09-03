@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>GPSOnIt</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv-printshiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+    <script src="/newGPSOnItWeb/js/jquery.min.js"></script>
+    <script src="/newGPSOnItWeb/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/newGPSOnItWeb/mooslide/mootools12.js"></script>
+    <script src="/newGPSOnItWeb/mooslide/mooSlide2-moo12.js"></script>
+    <link rel="stylesheet" href="/newGPSOnItWeb/mooslide/mooslide.css" type="text/css" media="screen" />
+    <link href="/newGPSOnItWeb/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/newGPSOnItWeb/t1.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css" rel="stylesheet" >
+    <meta name="keywords" content="gps, gps tracking, mapping, gis, telematics" />
+    <meta name="description" content="Most affordale GPS Tracking Service Ever." />
+    <meta name="robots" content="index,follow" />
+</head>
+	<script language="javascript" type="text/ecmascript">
+//	window.addEvent('domready',function(){
+//		var myLogin = new mooSlide2({ slideSpeed: 1500, fadeSpeed: 500,  toggler:'login', content:'loginPanel', height:190, close: false, effects:Fx.Transitions.Expo.easeOut , from:'top'});
+//		//optional: AutoStart the slider on page load:
+//		//MyLogin.run();
+//	    $('close').addEvent('click', function(e){
+//			e = new Event(e);
+//			myLogin.clearit();
+//			e.stop();
+//		});
+//	});
+	</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83735763-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<style>
+tl { 
+ color: #000;
+ font-weight: 4;
+ font-size: 1.2em;
+}
+tc { 
+ color: #000;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2em;
+}
+tl1 { 
+ color: #FFFFFF;
+ font-weight: 4;
+ font-size: 8px;
+}
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFFF;}  /* visited link */
+a:hover {color:#FFFFFF;}  /* mouse over link */
+a:active {color:#FFFFFF;}  /* selected link */
+#loginPanel {
+  display:none;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  width: 400px;
+  height: 600px;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+.inputSize {
+  height:22px;
+}
+.mooSlide1 {
+	background-color: #000000;
+	padding: 5px 10px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	border: 1px solid #33CCCC;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 0.85em;
+	display: none;
+	width: 525px;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+
+#close:hover {
+        float:right;
+        display:inline-block;
+        padding:2px 5px;
+        background:#ccc;
+    color:#fff;
+    }
+</style>
+<body>
+    <!-- Login Panel using MooSlide -->
+	<div id="loginPanel">
+        <form action="https://gpsonit.com/checklogin.php" method="post">
+            <table width="90%">
+<!--
+                <caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <tc>Member Login</tc>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" id="close"><tl>&nbsp;X&nbsp;</tl></a></caption>
+-->
+                <span id='close'>X</span>
+                <caption style="text-align:right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <tc>Member Login</tc>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
+                </caption>
+                <tr>
+                  <td colspan="2">&nbsp;
+                  </td>
+                </tr>
+
+<!--
+                <tr>
+                    <td colspan="2">
+                        <b>E-Mail:</b></td><td><input class="inputSize" type="text" name="myEmail" id="myEmail" value="" size="23">
+                    </td>
+                </tr>
+-->
+                <tr>
+                    <td colspan="2">
+                        <b>Username: </b></td><td><input  class="inputSize" type="text" name="myusername" id="myusername" value="" size="23" >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <b>Password:</b></td><td><input  class="inputSize" type="password" name="mypassword" id="mypassword" size="23" ><br />
+                    </td>
+                </tr>
+            </table>
+                        <div>
+                        <br />
+                        <center><button name="submit" value="submit" class="btn btn btn-primary">Login</button></center></div>
+
+<!--
+                        <div style="padding-top:10px;"><center>Lost your password? Enter E-Mail and click &nbsp;</center>
+                        <center><button value="submit" name="forgotPassword" class="btn btn-xs btn-warning">E-mail it!</button></center></div>
+-->
+        </form>
+ 	</div> <!-- / Login panel -->
+
+<div id="frame">
+    <div id="header" >
+        <div class="head" >
+            <div class="container">
+                <div class="col-xs-4" style="padding-left:0px;z-index: 100;">
+                    <a href="/">
+                        <img style="padding-left:8px;margin-top:8px;width:205px;height:40px" src="/GPSOnItLogo.gif" alt="GPSOnItLite"/>
+                    </a>
+                </div>
+                <div id="connect" class="col-sm-8">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#GPSOnItLite-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            </div>
+                                <div class="collapse navbar-collapse" id="GPSOnItLite-navbar-collapse">
+                                    <ul class="nav navbar-nav" style="color:#000000;">
+                                        <li>
+                                            <a href="index.php" >Home</a>
+                                        </li>
+                                        <li class="navbar-text hidden-xs">|</li>
+
+                                        <li>
+                                            <a href="GPSOnItNewfeatures.html">Features</a>
+                                        </li>
+                                        <li class="navbar-text hidden-xs">|</li>
+
+                                        <li>
+                                            <a href="GPSOnItNewPrices.html">Store</a>
+                                        </li>
+                                        <li class="navbar-text hidden-xs">|</li>
+
+                                        <li>
+                                            <a href="GPSOnItNewSupport.html">Support</a>
+                                        </li>
+                                        <li class="navbar-text hidden-xs"></li>
+                                    </ul>
+     <!--
+                                    <button id="login" class="btn btn-primary navbar-btn navbar-right" style="font-family:Arial;" >Login</button>
+     -->
+                                    <button id="login" onclick="location.href='/GPSOnItNewLogin.php'" class="btn btn-primary navbar-btn navbar-right" style="font-family:Arial;" >Login</button>
+
+<!--
+                                    <button class="btn btn-success navbar-btn navbar-right" style="font-family:Arial;" >Not a member?</button>
+-->
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="banner" style="background-image: url(/newGPSOnItWeb/blueBackground.jpg) repeat-x scroll 0 0 rgba(0, 0, 0, 0);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h1>Yep, We Can Track That!</h1>
+                                <h2>
+                                    The most affordable GPS Tracking, Mapping, and Reporting on the planet, bar none!<br />
+<!--
+                                     <strong>GPSOnIt</strong>
+-->
+                                </h2>
+<!--
+                                    <a class="btn btn-info" style="font-family:Arial; text-decoration: none;" href="GPSOnItNewfeatures.html">Check it out Now</a>
+-->
+                            </div>
+                        <div class="col-md-7">
+<!--
+                            <img style="width:100%; margin-top:10px; height:274px;" src="/traffic.jpg" alt="traffic Image" title="Photo by: Adan Garcia via flickr"/>
+                            -->
+                            <img style="width:100%; margin-top:10px; height:274px;" src="images/gifTest4.gif" alt="traffic Image" title="Photo by: Pat Coggins"/>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="container-fluid" style="margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width:1200px;">
+                <h2 style="margin-top:15px; font-weight:300;" class="text-center">
+                <!-- Affordable, no nonsense, no ads, no proprietary devices. Just Tracking -->
+                Privacy Statement
+                </h2>
+                <center>
+                  <div id="container" style="text-align:left;">
+                    <p>
+GPSOnIt.com believes in keeping your confidential information confidential. With this in mind, we have adopted this Online Privacy Statement. By using this Website, you agree to the collection, use and disclosure of your personal information as described in this Statement. If you do not, please do not use the Website. This Statement addresses:
+Information Collection; Option to Opt-out; Registering; Security of Information; Use of Information; Disclosure of Information; Your California Privacy Rights; Updating of Information; Contacting the Website; Changes to our Privacy Statement; Links to Other Websites; Cookies and Pixel Tags; Safe Harbor Certification; Information Collection;
+Any products we sell are products for purchase by adults. We do not direct the Website to, nor do we knowingly collect any personal information from, children under the age of thirteen. You must be 13 years of age or older to submit personal information to us, including to register or place an order on the Website or participate in one of our online promotions. Please see our Terms of Use for additional information regarding the use of this Website.<br/><br/>
+Our website automatically records website usage information that we analyze statistically to track operational problems, to prevent fraud and to improve the effectiveness, security and integrity of the site. This information does not identify you personally and we do not use this information to track or record information about individuals. We will disclose this information to third parties only in aggregate form or as may be required by law. For each page that you visit, we collect and store only the following technical information in what is called a web server log file:
+</p><br/>
+<div align="left">
+&bull;Date and time of access<br/>
+&bull;Internet domain and IP address from which our website was accessed<br/>
+&bull;Type of browser and operating system used to access our site (if provided by the browser)<br/>
+&bull;URL address of the referring page (if provided by the browser)<br/>
+&bull;Completion or success status of the request for a web page or other on-line item<br/>
+&bull;File size of the webpage visited<br/>
+</div>
+<p>
+We only collect personal information from you when you provide it to us, such as when you: (1) register; (2) place an order; (3) complete a survey; (4) participate in one of our promotions; (5) contact us. The personal information we collect from you may include your name, age, mailing address, daytime telephone number, cell phone number, e-mail address, password and payment information. We may also combine the information you provide to us with information we receive from third parties, such as address update services.
+<h2>Registration</h2>
+Registration is conducted elsewhere from the main website.  
+Use of, and registration with, GPSOnIt.com requires users to give us contact information (such as name, age, mailing address, daytime telephone number, cell phone number, e-mail address and password). You must be 13 years of age or older to join. You acknowledge and agree that you are responsible for maintaining the confidentiality of your registration information and password. You are responsible for all use of the Website accessed through it.
+<h2>Use of Information</h2>
+We use the personal information we collect from you for the following purposes:
+To contact you about upcoming sales, promotions, and product information; To help us learn more about our site visitors and customers and to improve their shopping experience and our business; To address problems with the Website, our business or our products and services and to protect the security of the Website and our business; and Otherwise, as disclosed to you at the point of information collection.
+<h2>Disclosure of Information</h2>
+We may disclose your personal information as follows:<br>
+To comply with the law, to respond to governmental inquiries or requests, to enforce our Website policies, or to protect our or others' rights, property, or safety.
+As with any business, it is possible that as our business develops, we might sell or buy online stores or other assets. In such transactions, information about customers often is among the transferred assets. Accordingly, in the unlikely event that our company or substantially all of our assets are acquired by a third party, such information may be one of the transferred assets.
+We may share aggregate, non-personally identifiable information about Website users with third parties.
+<h2>Changes to our Privacy Statement</h2>
+We may amend this Privacy Statement at any time. If we make any material changes in the way we collect, use, and/or share your personal information, we will notify you by sending you an e-mail at the last e-mail address that you provided us, and/or by prominently posting notice of the changes on the Website covered by this Privacy Statement. Any material changes to this Privacy Statement will be effective upon the earlier of thirty (30) calendar days following our transmittal of an e-mail notice to you or thirty (30) calendar days following our posting of the notice of changes on the Website covered by the Privacy Statement.
+Please note that, at all times, you are responsible for updating your personal information to provide us your current e-mail address. In the event that the last e-mail address that you have provided us is not valid, or for any other reason is not capable of delivering to you the notice described above, our transmittal of the e-mail containing such notice will nevertheless constitute effective notice of the changes described in the notice.
+In any event, changes to this Privacy Statement may affect our use of personal information that you provided us prior to our notification to you of the changes. If you do not accept these changes in our use of your information, you must notify us prior to the effective date of your wish to opt-out.
+<h2>Option to Opt-out</h2>
+At all times, you have the option of "opting out" of receiving future e-mail communications by terminating your account by sending email to admin@gpsonit.com.
+Security of Information
+GPSOnIt.com has security measures in place to protect against the loss, misuse or alteration of the information you provide.
+<h2>Your California Privacy Rights</h2>
+If you are a California resident, you may request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please write to us at the address below.
+Contacting the Website
+Should you have any further questions regarding this Privacy Statement, the practices of this Website, or your dealings with this Website, please: Contact our customer service department at: admin@gpsonit.com.
+<h2>Links to Other Websites</h2>
+This Website may contain links to other sites, which may have privacy policies that differ from our own. We are not responsible for the privacy practices or content of such other websites. Accordingly, we recommend that you review the Privacy Statement posted on any website that you access through this Website. The terms and conditions herein do not apply to any such linked websites. GPSOnIt.com does not endorse any linked websites, or the information, materials, products or services that are contained in or accessible through such linked websites. GPSOnIt.com disclaims all warranties, express or implied, with respect to the information, materials, products and services that are contained in or accessible through linked websites, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose or non-infringement.
+You acknowledge and agree that GPSOnIt.com is not responsible for the content, accuracy, legality, decency, copyright compliance, privacy practices, security or any other aspects of any such linked websites, and that the access or use of any such linked websites is solely at your own risk, and you hereby waive any and all claims against GPSOnIt.com with respect to such linked websites.
+Safe Harbor Certification GPSOnIt.com adheres to the Safe Harbor Privacy Framework as set forth by the United States Department of Commerce in coordination with the European Commission. If you have any complaints regarding our compliance with the Safe Harbor you should contact us at: admin@gpsonit.com.
+                    </p>
+	              </div>
+                </center>
+             </div>
+    <footer class="container" id="footer">
+          <div class="row" align="right">Check us out on  &nbsp;&nbsp;
+        <a href="https://www.facebook.com/GPSOnIt/?fref=ts" class="btn btn-social-icon btn-sm btn-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/GPSOnIt" class="btn btn-social-icon btn-sm btn-dropbox" target="_blank"><i class="fa fa-twitter"></i></a> 
+        &nbsp;&nbsp;
+<!--
+        <a onclick="" class="btn btn-social-icon btn-sm btn-flickr"><i class="fa fa-flickr"></i></a>
+        <a onclick="" class="btn btn-social-icon btn-sm btn-pinterest"><i class="fa fa-pinterest"></i></a>
+-->
+    </div>
+        <div class="row"  style="color:#000000;">
+            <center>Copyright &copy; Whiteboard Technologies 2019</center> 
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

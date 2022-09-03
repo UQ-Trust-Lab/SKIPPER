@@ -1,0 +1,13 @@
+Alexa, open daddy saturday
+For customizing recommendations based on local weather conditions, please enable address permissions in the Amazon Alexa app.
+visit DaddySaturday.com
+Okay, before I can continue, please set a location for your amazon account on amazon.com, under the Preferences tab of Your Content and Devices.
+Devices
+.
+
+
+log:
+
+
+time:
+50.558971643447876

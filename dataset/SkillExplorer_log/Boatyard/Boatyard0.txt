@@ -1,0 +1,17 @@
+Alexa, open boat yard
+Here's the skill Boatyard, by Trim Agency.In order to schedule a fuel delivery, Boatyard will need access to your name, email address and phone number. Please go to the home screen in your Alexa app and grant me permissions.
+Help
+Do you need to place an emergency call.
+Yes
+
+What's the time
+The time is 624 PM.
+
+
+log:
+problem2----------privacy violation!
+problem1----------crash!
+
+
+time:
+60.08543276786804

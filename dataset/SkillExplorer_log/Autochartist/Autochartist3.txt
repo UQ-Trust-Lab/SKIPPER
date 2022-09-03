@@ -1,0 +1,13 @@
+Alexa, open autochartist
+Welcome to Autochartist.   Autochartist needs to know your physical location and email, so they can send you the list of supported financial instruments for your country, along with service updates. I just sent a card to your Alexa app, so you can authorize me getting the necessary details associated with your Amazon account. See you soon.
+Stop
+
+What's the time
+It's 813 PM.
+
+
+log:
+
+
+time:
+107.03159976005554

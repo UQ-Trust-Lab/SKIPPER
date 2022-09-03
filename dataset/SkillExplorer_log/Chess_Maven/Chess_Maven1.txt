@@ -1,0 +1,44 @@
+Alexa, open chess maven
+Welcome back to Chess Maven. You are playing as black. Which piece would you like to move next.
+jump
+How would you like to proceed with your next move.
+change game type
+Are you certain you would like to start a new game.
+No
+alright keeping your current game. That move is not valid. Repeat requests with the word 'move' before each phrase for enhanced processing. What move do you want to make.
+I do not know
+What piece do you want to move next.
+change game type
+Are you certain you want to cancel this game and start a new one.
+No
+alright keeping your current game. That move is not valid. Repeat requests with the word 'move' before each phrase for enhanced processing. What move do you want to make.
+forth
+Which move would you like to make now.
+change game type
+Are you certain you would like to start a new game.
+I do not know
+alright keeping your current game. That move is not legal. Say move requests with the word 'move' before each phrase for enhanced processing. What move do you want to make.
+play
+If you aren't sure what move you should make try asking for a hint. You start with three free per game and they will tell you your best possible move. Should I continue your tutorial.
+a hint
+After consulting the hamsters, your current best move is to move your pawn at C 7 to C 5. You have earned the achievement First Hint. You weren't afraid to ask for help, which is a great sign for your future chess career. Way to go. What move do you want to make.
+help
+To hear random legal moves say 'what moves can I make' To start a new game say 'start a new game' and To find out how many hints you have say 'how many hints'. How would you like to proceed with your next move.
+what moves can I make To start a new game
+A selection of valid moves include your pawn at G 7 to G 5. your knight at G 8 to F 6. your pawn at E 7 to E 5. your pawn at F 7 to F 5. your pawn at B 7 to B 6. your pawn at H 7 to H 6. your pawn at E 7 to E 6. your pawn at F 7 to F 6. your pawn at D 7 to D 6. your pawn at B 7 to B 5. your pawn at D 7 to D 5. your knight at G 8 to H 6. your pawn at A 7 to A 6. your pawn at G 7 to G 6. your knight at B 8 to C 6. your pawn at A 7 to A 5. your pawn at H 7 to H 5. your knight at B 8 to A 6. your pawn at C 7 to C 6. or your pawn at C 7 to C 5. Which piece do you want to move next.
+pawn
+Your pawns are at A 7 B 7 and C 7. There have been 1 moves in this game. Which move would you like to make now.
+C
+Which move would you like to make now.
+is
+
+What's the time
+I don't know that one yet. If you were attempting to make a move, say move before your request. Say help for advice on how to play. Try asking where your enemies pieces are to hear a list of their locations. Which move would you like to make now.
+
+
+log:
+problem1----------crash!
+
+
+time:
+448.93717408180237

@@ -1,0 +1,31 @@
+Alexa, open chess maven
+Welcome back to Chess Maven. You are playing as black. What move do you want to make.
+is
+Which piece do you want to move next.
+ranks
+
+What's the time
+I am not sure how to do that yet. If needed, you can always ask for a hint. Which piece would you like to move next.
+
+
+log:
+problem1----------crash!
+
+
+time:
+115.3954553604126Alexa, open chess maven
+Welcome back to Chess Maven. You are playing as black. What move do you want to make.
+is
+Which piece do you want to move next.
+ranks
+
+What's the time
+I am not sure how to do that yet. If needed, you can always ask for a hint. Which piece would you like to move next.
+
+
+log:
+problem1----------crash!
+
+
+time:
+115.3954553604126

@@ -1,0 +1,11 @@
+Alexa, open box lock
+To use the Box Lock skill, please link your account using the same email you used for your Box Lock account.  If you signed in with Gmail, please use the sign in with google button to log into the skill as well.  You can link your account through the Account Setup card that was just delivered to your Alexa app.
+check status of BoxLock
+Here's something I found on the web. According to sap.com  The check box for Document is locked defines in which status the document will be locked for changes.
+
+
+log:
+
+
+time:
+48.25922441482544

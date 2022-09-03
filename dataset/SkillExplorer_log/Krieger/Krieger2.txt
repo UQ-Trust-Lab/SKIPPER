@@ -1,0 +1,15 @@
+Alexa, open krieger
+Hi. Welcome to Krieger. You can ask me to calculate surplus income, how to contact us, what your nearest location is, or what a consumer proposal is. What do you want to do.
+how to contact us
+You can reach us by phone at 9055088088 or toll free at 18445088088. Our mailing address is 675 Cochrane Drive, East Tower Suite 631, Markham, Ontario L3R 0B8.
+Markham
+This might answer your question According to Wikipedia Markham is a city in the Regional Municipality of York, Ontario, Canada. It is approximately 30<span classace_invisible ace_invisible_space ace_invalid>.
+
+
+log:
+problem2----------privacy violation!
+problem1----------crash!
+
+
+time:
+94.53155541419983

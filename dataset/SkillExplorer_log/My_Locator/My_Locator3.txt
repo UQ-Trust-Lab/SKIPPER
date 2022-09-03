@@ -1,0 +1,13 @@
+Alexa, open my locator
+Welcome to G P S On It  My Locator,  You can ask me to Locate, Find, or Map with the name of the device. What would you like to do .
+Stop
+Goodbye.
+What's the time
+It's 513 AM.
+
+
+log:
+
+
+time:
+35.36531138420105

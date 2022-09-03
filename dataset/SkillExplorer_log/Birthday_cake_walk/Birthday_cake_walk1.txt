@@ -1,0 +1,16 @@
+Alexa, open cake walk
+Hello. Welcome to Cake Walk. When is your birthday.
+Today
+I was born November sixth, two thousand fourteen. When were you born.
+Today
+
+What's the time
+
+
+
+log:
+problem1----------crash!
+
+
+time:
+162.69090628623962

@@ -1,0 +1,15 @@
+Alexa, open my locator
+Ok, Here's My Locator.Welcome to G P S On It  My Locator,  You can ask me to Locate, Find, or Map with the name of the device. What would you like to do .
+Help
+With the My Locator skill, you can just ask Alexa where your family members are. To use this skill, you will need to have a G P S On It dot com account. If you have one already, please Enable My Locator, then login when prompted. If you do not have an account with G P S On It, please visit our Store at G P S On It dot com.
+where your family members are
+Okay, before I can continue, please set a location for your amazon account on amazon.com, under the Preferences tab of Your Content and Devices.
+Devices
+.
+
+
+log:
+
+
+time:
+96.16319227218628

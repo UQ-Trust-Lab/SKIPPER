@@ -1,0 +1,61 @@
+Alexa, open chess maven
+Here's the skill Chess Maven, by LC Publishing.Welcome to Chess Maven. In this game you will be able to play chess against computer or real opponents using vocalized commands. There is an optional tutorial if you are interested, and otherwise we will jump right into the game. Chess consists of back and forth play between two players. The player with the white pieces goes first, and the goal of the game is to capture your opponent's king. The board is comprised of files and ranks. Files run along the bottom of the board from A through H and ranks run along the side from 1 through 8. You can always ask for a hint to hear your best possible moves. There have been 0 moves in this game. Do you want to continue the tutorial.
+Help
+To move a piece say the name of the piece or square it is in to the new piece or square To play with a friend in the same room say 'start a local game' and To decrease the difficulty say 'lower the difficulty'. Which move would you like to make now.
+the name of the piece
+I am not sure how to do that yet. If you were attempting to make a move, say move before your request. Say help for advice on how to play. Try asking where your pieces are to hear a list of their locations. What is your next move.
+move before your request
+That move is not legal. Say move requests with the word 'move' before each phrase for enhanced processing. Which piece do you want to move next.
+move requests with the word' move before each phrase
+That move is not legal. Try requests with the word 'move' before each phrase for enhanced processing. Which piece would you like to move next.
+change game type
+Are you sure you want to cancel your current game.
+Yes
+Creating a new game. You are playing as black. Your opponent gets to go first. Your opponent moved their white pawn to D 4. What move do you want to make.
+change game type
+Are you certain you would like to start a new game.
+Yes
+Beginning a new game. You are playing as black. Your opponent gets to go first. Your opponent moved their pawn to G 4. Which piece do you want to move next.
+change game type
+Are you certain you want to cancel this game and start a new one.
+Yes
+Creating a new game. You are playing as black. Your opponent gets to go first. Your opponent moved their pawn to D 4. What is your next move.
+change game type
+Are you sure.
+Yes
+Starting a new game. You are playing as black. Your opponent gets to go first. Your opponent moved their pawn to E 4. What piece would you like to proceed with.
+change game type
+Are you sure you want to cancel your current game.
+No
+alright keeping your current game. That is not a valid move. Which piece do you want to move next.
+real opponents
+I am not sure how to do that yet. If you were attempting to make a move, say move before your request. Say help for advice on how to play. You can ask for valid moves if you want to hear a few random suggestions. Where would you like to move your next piece.
+help
+To start the ingame tutorial say 'tutorial' To find out how many hints you have say 'how many hints' and To increase the difficulty say 'increase the difficulty'. What move do you want to make.
+tutorial
+To move your piece, simply combine a file and a rank into a square. This skill uses algebraic notation for moves, though it should recognize most descriptive notation moves as well. For example, you could move a pawn forward from B 2 to B 3 or a knight from B 1 to A 3. Should I go on with the tutorial.
+a knight
+Would you like me to continue the tutorial.
+Yes
+You can also say piece names instead of squares. For example, if your rook is in its starting square and you are white you could say rook to A 5. You can also omit the start square and just say the end square and I will do my best to make the correct move. Finally, if you are attacking an enemy piece you can say queen takes pawn and I will find the matching move and make it. Would you like me to continue the tutorial.
+No
+alright exiting the tutorial and jumping back into your game. You can continue your tutorial at any time simply by saying 'tutorial'. What is your next move.
+jumping
+What piece do you want to move now.
+change game type
+Are you sure.
+No
+okay keeping your current game. That move is not legal. Try requests with the word 'move' before each phrase for enhanced processing. What piece would you like to proceed with.
+I do not know
+What piece do you want to move next.
+Stop
+If you link your account, you will be able to play your current game across not just your echo devices, but your computer, tablet, and phone as well. Thank you for playing. If you leave a review it will help other users find this skill. Please think about leaving one. goodbye.
+What's the time
+The time is 849 AM.
+
+
+log:
+
+
+time:
+639.8634853363037

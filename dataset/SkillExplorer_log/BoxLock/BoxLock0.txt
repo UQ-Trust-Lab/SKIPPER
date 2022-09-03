@@ -1,0 +1,16 @@
+Alexa, open box lock
+Ok, Here's BoxLock.To use the Box Lock skill, please link your account using the same email you used for your Box Lock account.  If you signed in with Gmail, please use the sign in with google button to log into the skill as well.  You can link your account through the Account Setup card that was just delivered to your Alexa app.
+Help
+Do you need to place an emergency call.
+Yes
+
+What's the time
+It's 850 AM.
+
+
+log:
+problem1----------crash!
+
+
+time:
+64.87964200973511

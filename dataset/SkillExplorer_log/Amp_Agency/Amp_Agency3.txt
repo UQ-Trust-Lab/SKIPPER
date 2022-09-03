@@ -1,0 +1,13 @@
+Alexa, open amp agency
+<Short audio>.<span classace_invisible ace_invisible_space ace_invalid>.
+Stop
+Thanks for talking to us.<Short audio>.
+What's the time
+The time is 800 AM.
+
+
+log:
+
+
+time:
+37.49276924133301

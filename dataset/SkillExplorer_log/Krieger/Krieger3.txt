@@ -1,0 +1,13 @@
+Alexa, open krieger
+Hi. Welcome to Krieger. You can ask me to calculate surplus income, how to contact us, what your nearest location is, or what a consumer proposal is. What do you want to do.
+Stop
+Thanks for using Krieger. Goodbye for now.
+What's the time
+It's 1228 PM.
+
+
+log:
+
+
+time:
+41.74679207801819

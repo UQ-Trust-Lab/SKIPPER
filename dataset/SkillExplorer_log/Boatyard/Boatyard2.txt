@@ -1,0 +1,11 @@
+Alexa, open boat yard
+In order to schedule a fuel delivery, Boatyard will need access to your name, email address and phone number. Please go to the home screen in your Alexa app and grant me permissions.
+address
+Sorry, I don't have an answer for that.
+
+
+log:
+
+
+time:
+36.15833044052124

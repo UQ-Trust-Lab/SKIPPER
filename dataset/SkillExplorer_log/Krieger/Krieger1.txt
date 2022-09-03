@@ -1,0 +1,16 @@
+Alexa, open krieger
+Hi. Welcome to Krieger. You can ask me to calculate surplus income, how to contact us, what your nearest location is, or what a consumer proposal is. What do you want to do.
+calculate surplus income
+Surplus income is a calculation based on your income and family size which determines how much you earn above a specific standard set by the government. The standard allows for basic living expenses, after which, half of any amount over that is paid to the Trustee in a bankruptcy. You can 'ask krieger to calculate surplus income' to calculate your specific income.
+family
+
+What's the time
+It's 1226 PM.
+
+
+log:
+problem1----------crash!
+
+
+time:
+134.10145139694214

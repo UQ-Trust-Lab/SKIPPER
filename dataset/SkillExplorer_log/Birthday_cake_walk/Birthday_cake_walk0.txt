@@ -1,0 +1,18 @@
+Alexa, open cake walk
+Hello. Welcome to Cake Walk. When is your birthday.
+Help
+You can say hello to me. How can I help.
+hello
+You can say hello to me. How can I help.
+hello
+
+What's the time
+
+
+
+log:
+problem1----------crash!
+
+
+time:
+173.6872899532318

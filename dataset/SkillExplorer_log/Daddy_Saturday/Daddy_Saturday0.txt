@@ -1,0 +1,16 @@
+Alexa, open daddy saturday
+For customizing recommendations based on local weather conditions, please enable address permissions in the Amazon Alexa app.
+Help
+Do you need to place an emergency call.
+Yes
+
+What's the time
+The time is 448 AM.
+
+
+log:
+problem1----------crash!
+
+
+time:
+54.70750665664673

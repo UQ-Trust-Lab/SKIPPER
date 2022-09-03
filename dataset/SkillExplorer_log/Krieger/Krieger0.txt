@@ -1,0 +1,16 @@
+Alexa, open krieger
+Hi. Welcome to Krieger. You can ask me to calculate surplus income, how to contact us, what your nearest location is, or what a consumer proposal is. What do you want to do.
+Help
+The Krieger skill is designed to answer insolvencyrelated questions. We have a full knowledgebase of insolvency topics. You can ask me to explain things like bankruptcy, surplus income, or consumer proposals to you. I can calculate surplus income for you. You can also ask for our contact information and your nearest location. What would you like to do.
+explain things like bankruptcy
+Bankruptcy is a legal process which assigns all of your nonexempt assets to a Trustee, who is responsible for realizing on those assets for the benefit of creditors.
+Taylor Swift
+Taylor Swift from iheart radio.<Play audio>.
+
+
+log:
+problem1----------crash!
+
+
+time:
+95.68006777763367

@@ -1,0 +1,15 @@
+Alexa, open my locator
+Welcome to G P S On It  My Locator,  You can ask me to Locate, Find, or Map with the name of the device. What would you like to do .
+Locate
+Who would you like to locate .
+Taylor Swift
+Sorry, it doesn't appear that your account is linked.You must have a G P S On It My Locator account to use this skill. Please use the Alexa app to link your Amazon account with your G P S On It Account.
+set in GPSOnIt.com account settings
+Amazon Music Unlimited lets you play over 70 million songs. It's free for 30 days and then you'll be automatically charged A11.99 a month. Cancel anytime. Terms in the Alexa app. Should I start your free trial.
+
+
+log:
+
+
+time:
+91.10560941696167
